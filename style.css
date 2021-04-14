@@ -1,40 +1,56 @@
 @charset "UTF-8";
 
-div{
+div {
     padding: 6px;
 }
-button{
+
+button {
     width: 250px;
     text-align: center;
     margin: auto;
+    box-shadow: 10px 5px 5px #8b8b8b96;
+    border: 2px solid black
 }
-h1{
+
+button:hover {
+    
+    background-image:url("https://pa1.narvii.com/6672/afc7d31cca04731521e744387a906623e65caeba_hq.gif");
+}
+button:focus{
+    outline-style: none;
+}
+
+
+h1 {
     font-family: 'New Tegomin', serif;
     font-size: 70px;
     margin: 0px;
     padding: 0px;
 }
-h2{
+
+h2 {
     font-family: 'New Tegomin', serif;
     font-size: 35px;
     margin: 15px;
-    
+
 }
-body{
-    background-image: linear-gradient(to right, #C1C1C1 , #8B8B8B);
-    display:flex;
+
+body {
+    background-image: linear-gradient(to right, #C1C1C1, #8B8B8B);
+    display: flex;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
 }
-img{
+
+img {
     width: 150px;
     height: 150px;
     margin: 0px;
     padding: 0px;
 }
+
 .container {
-    width: 90vw;
     height: 40vh;
     display: flex;
     flex-direction: row;
@@ -42,13 +58,15 @@ img{
     align-items: center;
     text-align: center;
 }
+
 .box {
     height: 100px;
     align-items: center;
     text-align: center;
 
 }
-button{
+
+button {
     border-radius: 15px;
     padding: auto;
     margin: auto;
