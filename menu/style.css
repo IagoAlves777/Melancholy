@@ -13,15 +13,17 @@ button {
 }
 
 button:hover {
-    
-    background-image:url("https://pa1.narvii.com/6672/afc7d31cca04731521e744387a906623e65caeba_hq.gif");
+    cursor: pointer;
+    background-image: url("https://pa1.narvii.com/6672/afc7d31cca04731521e744387a906623e65caeba_hq.gif");
 }
-button:focus{
+
+button:focus {
     outline-style: none;
 }
 
 
 h1 {
+    cursor: default;
     font-family: 'New Tegomin', serif;
     font-size: 70px;
     margin: 0px;
@@ -60,7 +62,6 @@ img {
 }
 
 .box {
-    height: 100px;
     align-items: center;
     text-align: center;
 
@@ -70,4 +71,8 @@ button {
     border-radius: 15px;
     padding: auto;
     margin: auto;
+}
+
+footer {
+    cursor: default;
 }

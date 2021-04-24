@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'New Tegomin', serif; 
+}
+
+h1 {
+    color: aliceblue;
+    cursor: default;
+    font-size: 2.5em;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+#resposta{
+    padding-top: 3%;
+}
+#ok{
+    padding-top: 0.5%;
+}
+#enter:hover {
+    cursor: pointer;
+    background-image: url("https://pa1.narvii.com/6672/afc7d31cca04731521e744387a906623e65caeba_hq.gif");
+}
+
+#enter:focus {
+    outline-style: none;
+}
+
+#enter{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#global {
+    padding: 10%;
+}
+
+#principal {
+    text-align: center;
+}
+#resposta{
+    padding-top: 3%;
+}
+
+section {
+    background: #262626;
+    padding: 2%;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 363);
+    text-align: center;
+}
